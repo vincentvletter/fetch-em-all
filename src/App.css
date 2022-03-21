@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /*max-width: 1000px;*/
+
+    padding: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+nav {
+    width: 100%;
+    height: 300px;
+    background-image: url("./assets/pokemon-title.jpg");
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-family: "Copperplate Gothic Light";
+    border-radius: 5px;
+    margin: 20px;
+}
+
+footer {
+    margin-bottom: 40px;
+}
+
+
+
